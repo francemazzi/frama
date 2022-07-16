@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    background: #F9F9F9;
+}
+
+/* INIZIO HEADER */
+
+header, .barraStrumenti {
+    position: fixed;
+    top: 0;
+}
+
+header {
+    left: 70px;
+    width: calc(100% - 60px);
+    height: 60px;
+    background: white;
+    position: relative;
+}
+
+header > .logo {
+  background-image: url('https://www.guffantiformaggi.com/wp-content/uploads/2017/09/youtube.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 60px;
+  width: 100%;
+}
+
+header > .action {
+  position: absolute;
+  top: 4px;
+  right: 0;
+  height: 60px;
+  margin-right: 10px;
+
+}
+
+.action > .videoAct, .notifiche, .entraCanale {
+  float: left;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  line-height: 50px;
+  /* border: 1px solid lightgrey; */
+  margin: 1px;
+  border-radius: 8px;
+}
+
+header > .ricerca {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid lightgrey;
+  padding-right: 10px;
+}
+.barraRicerca {
+  width: 500px;
+  height: 30px;
+
+  border-color: lightgrey;
+}
+i > .fa-search {
+  height: 30px;
+  width: 50px;
+  background-color: transparent;
+  border-radius: 8px;
+
+
+
+}
+
+/* FINE HEADER */
+
+/* INIZIO SIDEBAR */
+.sidebar {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100vh;
+  width: 70px;
+  z-index: 2;
+  background-color: white;
+}
+
+.sidebar .hamburger {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  color: #606060;
+  font-size: 20px;
+}
+
+div > .sidebar {
+  width: 70px;
+  height: 70px;
+  line-height: 60px;
+  text-align: center;
+  color: #606060;
+  font-size: 20px;
+}
+
+/* FINE SIDEBAR */
+
+/* INIZIO MAIN */
+.containerMain {
+  height: calc(100% - 60px);
+  width: 100vw;
+  position: relative;
+  left: 70px;
+  margin-left: 60px;
+  margin-right: 50px;
+}
+
+.boxVideo {
+  height: 30vh;
+  width: 20%;
+  float: left;
+  position: relative;
+  margin: 10px;
+}
+
+.videoLinea {
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 300px;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+div > .logoBoleanVideo {
+  background-image: url(img/boolean_logo.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  bottom: 8%;
+  left: 0;
+}
+
+div > .testoTitolo {
+  position: absolute;
+  bottom: 19%;
+  left: 50px;
+  font-size: 14px;
+  font-style: Roboto;
+}
+div > .corpoTitolo {
+  position: absolute;
+  bottom: 12%;
+  left: 50px;
+  font-size: 12px;
+  font-style: Roboto;
+  color: lightgrey;
+}
+div > .visualizzioni {
+  position: absolute;
+  bottom: 6%;
+  left: 50px;
+  font-size: 12px;
+  font-style: Roboto;
+  color: lightgrey;
+}
+
+#video1 {
+  background-image: url(img/accompagno_1.jpg);
+}
+#video2 {
+  background-image: url(img/accompagno_2.jpg);
+}
+#video3 {
+  background-image: url(img/accompagno_3.jpg);
+}
+#video4 {
+  background-image: url(img/accompagno_4.jpg);
+}
+#video5 {
+  background-image: url(img/accompagno_5.jpg);
+}
+#video6 {
+  background-image: url(img/accompagno_6.jpg);
+}
+#video7 {
+  background-image: url(img/accompagno_7.jpg);
+}
+#video8 {
+  background-image: url(img/accompagno_8.jpg);
+}
+/* FINE MAIN */
